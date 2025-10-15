@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+</head>
+<body>
+  
+  <div style="display:flex; gap:20px;">
+    <div style="flex:1;">
+      <h2>Taxes as a Share of Cigarette Price</h2>
+      <div id="choropleth_map"></div>
+    </div>
+    <div style="flex:1;">
+      <h2>Trends in Global Lung Cancer Deaths Per Region</h2>
+      <div id="line_chart"></div>
+    </div>
+  </div>
+
+  <h2>Global Lung Cancer Deaths per Year</h2>
+  <div id="bar_chart"></div>
+
+  
+
+  <script type="text/javascript">
+    vegaEmbed('#choropleth_map', 'taxes_map.vg.json')
+      .then(function(result) {
+      }).catch(console.error);
+
+    vegaEmbed('#bar_chart', 'bar_chart.vg.json')
+      .then(function(result) {
+      }).catch(console.error);
+
+    vegaEmbed('#line_chart', 'line_chart.vg.json')
+      .then(function(result) {
+      }).catch(console.error);
+  </script>
+
+</body>
+</html>

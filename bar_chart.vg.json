@@ -1,0 +1,100 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Global tracheal, bronchus, and lung cancer Deaths per Year",
+  "data": { "url": "smoking-related-deaths.csv" },
+
+  "vconcat": [
+    {
+      "width": 900,
+      "height": 500,
+      "transform": [
+        { "filter": "datum.sex == 'Both'" },
+        { "filter": "datum.age == 'All ages'" },
+        { "filter": "datum.metric == 'Number'" },
+        { "filter": "datum.location == 'Global'" }
+      ],
+      "layer": [
+        {
+          "mark": { "type": "bar", "width": 12 }
+        },
+        {
+          "transform": [{ "filter": "datum.year == 2021" }],
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "bottom",
+            "dy": -2,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "color": "black"
+          },
+          "encoding": {
+            "text": {
+              "aggregate": "sum",
+              "field": "val",
+              "type": "quantitative",
+              "format": ",.0f"
+            }
+          }
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "axis": { "format": "d", "title": "Year" },
+          "scale": { "domain": { "param": "yearBrush" } }
+        },
+        "y": {
+          "aggregate": "sum",
+          "field": "val",
+          "type": "quantitative",
+          "title": "Number of Deaths",
+          "axis": { "format": "~s" }
+        },
+        "tooltip": [
+          { "field": "year", "type": "quantitative", "title": "Year" },
+          {
+            "aggregate": "sum",
+            "field": "val",
+            "type": "quantitative",
+            "title": "Global Deaths",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+
+    {
+      "width": 900,
+      "height": 80,
+      "transform": [
+        { "filter": "datum.sex == 'Both'" },
+        { "filter": "datum.age == 'All ages'" },
+        { "filter": "datum.metric == 'Number'" },
+        { "filter": "datum.location == 'Global'" }
+      ],
+      "mark": { "type": "bar", "width": 12 },
+      "params": [
+        {
+          "name": "yearBrush",
+          "select": { "type": "interval", "encodings": ["x"] }
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "axis": { "format": "d", "title": "" },
+          "scale": { "domain": [1979, 2022] }
+        },
+        "y": {
+          "aggregate": "sum",
+          "field": "val",
+          "type": "quantitative",
+          "axis": { "tickCount": 3, "grid": false, "title": "" }
+        }
+      }
+    }
+  ]
+}

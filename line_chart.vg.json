@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Percentage of lung cancer deaths per region over time.",
+  "data": { "url": "regions-deaths.csv" },
+  "mark": "line",
+  "width": 500,
+  "height": 400,
+  "encoding": {
+    "x": { "field": "year", "type": "temporal", "title": "Year" },
+    "y": { "field": "val", "type": "quantitative", "title": "Percent", "axis": {"format": ".2%"} },
+    "color": { "field": "location", "type": "nominal", "title": "Region" }
+  },
+  "transform": [
+    { "filter": "datum.measure == 'Deaths'" },
+    { "filter": "datum.metric == 'Percent'" }
+  ]
+}
