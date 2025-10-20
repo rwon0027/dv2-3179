@@ -1,0 +1,353 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1980,1440374.9653652902,1741859.1992264565,1111490.462614274
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1980,32.22854897326656,38.974292011919104,24.86972189120084
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1980,4944865.202038692,5401313.761482776,4541002.853835664
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1980,110.64190517202526,120.85499211504208,101.60544051490811
+Deaths,Global,Both,All ages,Stroke,Number,1980,5438244.494943,5974235.343775223,4795890.798363791
+Deaths,Global,Both,All ages,Stroke,Rate,1980,121.68132135608083,133.6741758114699,107.30858643208023
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1980,800328.1832017052,899010.3879523043,747281.247474531
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1980,17.907431514168415,20.115456747228468,16.720500466993887
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1983,863547.3645629633,959076.7309140945,811238.6643761394
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1983,18.294842695291926,20.31869778638975,17.186647035407713
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1983,1547581.7633508178,1797097.8388307458,1208217.142217774
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1983,32.78658019289386,38.07274924184011,25.59690813232476
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1983,5118673.796120543,5527944.845254825,4727511.251959954
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1983,108.44261212693478,117.11329977061504,100.15556557062928
+Deaths,Global,Both,All ages,Stroke,Number,1983,5402545.464477477,5929167.508866119,4834283.193063156
+Deaths,Global,Both,All ages,Stroke,Rate,1983,114.45662795439148,125.61347685154395,102.41760231223017
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1982,1502418.4548399549,1760696.0339588998,1175119.6876119252
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1982,32.41501372048045,37.98741017491888,25.353469717066886
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1986,1650132.1980722058,1924210.4599458629,1299783.000021335
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1986,33.09978229004513,38.597481691978146,26.072174323529758
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1986,5260373.082674146,5643213.695789229,4822763.887992851
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1986,105.51712402457387,113.1964729644351,96.73917939141367
+Deaths,Global,Both,All ages,Stroke,Number,1986,5344559.574534055,5793625.238314352,4838658.357491558
+Deaths,Global,Both,All ages,Stroke,Rate,1986,107.20580966780969,116.2135580908921,97.05800444109005
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1985,1622601.5190428565,1885123.6925503616,1282701.8378895174
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1985,33.14100514498202,38.50291846798704,26.198686313353303
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1981,1470390.6206768898,1755155.5543751179,1142068.7356928242
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1981,32.303177247174496,38.55921016637188,25.090236756650704
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1982,4998431.3977560885,5409612.43770654,4619179.819340617
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1982,107.84227378011232,116.71359655217927,99.65983627194095
+Deaths,Global,Both,All ages,Stroke,Number,1982,5370310.417591132,5904518.392453227,4768219.570676636
+Deaths,Global,Both,All ages,Stroke,Rate,1982,115.8656466902885,127.39130306049704,102.87540219426495
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1986,945960.0686695408,1052589.126312507,890640.7157772838
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1986,18.974887202745087,21.113745288114327,17.865243660670668
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1984,1584517.2417214685,1838678.4172181569,1239871.5687742624
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1984,32.9616855177618,38.24883577208456,25.792244890911153
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1985,5272116.045809573,5674128.163539682,4827533.991479699
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1985,107.68092039146075,115.89186159031888,98.60050478911116
+Deaths,Global,Both,All ages,Stroke,Number,1985,5389418.551350133,5867880.275320841,4865766.294529792
+Deaths,Global,Both,All ages,Stroke,Rate,1985,110.07677845890069,119.84917314095654,99.38138471386007
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1982,837352.1975739,932925.9129411932,786085.8552114625
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1982,18.066060680893184,20.128084935832277,16.95997789435401
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1985,927559.9352221686,1033495.7609156506,873702.6242528197
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1985,18.945051033608173,21.108749084634635,17.845036397246343
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1989,1803063.1460222015,2062947.0307355928,1425388.0840146735
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1989,34.34295988166683,39.29297056004707,27.149379595005676
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1992,1926553.3480115347,2259222.7567307395,1516718.754611136
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1992,35.02790550217129,41.07638198173869,27.576439170358114
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1981,817702.1291806754,909729.6472374252,765200.7309610884
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1981,17.964190224605424,19.985953139575763,16.81078109062233
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1988,1748351.3845540215,2009794.7788762152,1369995.8116681112
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1988,33.86476292298569,38.92880133352533,26.536189336709622
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1981,4974600.760398172,5407452.089656355,4581085.714098247
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1981,109.2875647037896,118.79692433522237,100.64238830555828
+Deaths,Global,Both,All ages,Stroke,Number,1981,5396100.906042562,5909026.67392255,4749063.96244437
+Deaths,Global,Both,All ages,Stroke,Rate,1981,118.5475489032213,129.81607290049953,104.33272137330921
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1987,1694710.9795033492,1956967.0775042132,1321360.1826431009
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1987,33.39806052368068,38.56640199291696,26.040350176068962
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1984,884480.2729112052,989890.1907294345,830413.6384025957
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1984,18.399270032990913,20.592044254748714,17.27455686689095
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1984,5199273.181068213,5607934.413285843,4777895.751633467
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1984,108.15711120259834,116.65822603112758,99.39146956261142
+Deaths,Global,Both,All ages,Stroke,Number,1984,5401983.601427091,5897914.59568674,4867300.534705999
+Deaths,Global,Both,All ages,Stroke,Rate,1984,112.37396473445607,122.69049587774481,101.2512993365171
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1991,1883979.5850169454,2188573.4443775527,1485274.7632219444
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1991,34.76533777045033,40.38605069520388,27.407982143751365
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1996,2131377.208521173,2480632.0833366155,1697547.7150793758
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1996,36.703490994876184,42.71785255483647,29.232707858886517
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1990,1844790.9025127452,2118346.941380227,1449916.9150618892
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1990,34.571915127148216,39.6984344228385,27.17186238324369
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1989,5468596.632164344,5869181.521585064,5018848.454018963
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1989,104.16040900273937,111.79035297720756,95.5940514278675
+Deaths,Global,Both,All ages,Stroke,Number,1989,5490240.478662731,5969133.914015498,4899792.49724627
+Deaths,Global,Both,All ages,Stroke,Rate,1989,104.57265954073017,113.69414709051296,93.32639155353736
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1995,2077572.2154127164,2422625.2533716573,1647607.6857004457
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1995,36.24350403816345,42.26299692600086,28.742719683575793
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1993,1985146.8005710212,2336242.2779823127,1553361.2825392608
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1993,35.575501890341236,41.867428420279914,27.837541902423812
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1999,2338858.5058131143,2639283.8183732163,1940483.342818616
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1999,38.77214435649244,43.752408685426296,32.168128213885254
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1994,2025207.8946204463,2388940.0348497387,1596863.89761304
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1994,35.797613492423416,42.226949762189655,28.226196806066543
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1989,1046145.1995365456,1174313.7183699834,980804.8219045105
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1989,19.925936979713256,22.367163905181815,18.68139822208825
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1997,2191118.8411748293,2522274.233569503,1760919.403582431
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1997,37.25069916057289,42.8805945663745,29.936979097716936
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,1998,2265470.861149575,2584288.28314313,1855353.7610089958
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,1998,38.02936941939072,43.381204098111034,31.1449309682419
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2000,2404032.0567264426,2700583.8034145185,1975918.5532423647
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2000,39.35665159019789,44.21153018477035,32.34796218834974
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1992,5708957.677746592,6106225.764545317,5283369.930740439
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1992,103.7982313121006,111.02121790511491,96.06034676278352
+Deaths,Global,Both,All ages,Stroke,Number,1992,5674334.09999821,6196331.088209893,5096223.154567801
+Deaths,Global,Both,All ages,Stroke,Rate,1992,103.16871777655837,112.65948074679689,92.65771085987579
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1988,1014106.887878385,1134291.5584970803,953658.1790426217
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1988,19.642784419636886,21.970706262715048,18.471920706650565
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2002,2562364.7311267303,2863175.7983475984,2145862.2635437185
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2002,40.901124726036976,45.70274833172984,34.25280523881702
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1988,5421081.00385875,5809311.071038584,4958788.163331927
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1988,105.00384797007332,112.52368597333242,96.0494480801291
+Deaths,Global,Both,All ages,Stroke,Number,1988,5445385.971996689,5913281.62560214,4871194.510598094
+Deaths,Global,Both,All ages,Stroke,Rate,1988,105.47462403437798,114.53754783907189,94.35279927737925
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1987,5319744.572558498,5709448.130181902,4872240.14307936
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1987,104.8374344378757,112.51741241713826,96.01836133271452
+Deaths,Global,Both,All ages,Stroke,Number,1987,5370002.823551875,5834491.592343445,4823521.576854969
+Deaths,Global,Both,All ages,Stroke,Rate,1987,105.82788539310768,114.98167279420011,95.05825330068535
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2001,2475510.4051935733,2772033.782645024,2052200.600743462
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2001,40.01893514225598,44.812512170046496,33.17573724099513
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1992,1140312.8458760222,1254597.0789317987,1072045.5694689373
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1992,20.732761254435918,22.810636398665725,19.491549995299977
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1991,5628816.509356282,6052058.27889426,5201892.9077738505
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1991,103.86933529000972,111.67947463205489,95.99125458827163
+Deaths,Global,Both,All ages,Stroke,Number,1991,5623972.814721561,6119748.920345777,5041263.572837473
+Deaths,Global,Both,All ages,Stroke,Rate,1991,103.77995391806054,112.92857946985453,93.02713909078034
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1991,1118944.0447851713,1232750.0777453168,1052190.0266290454
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1991,20.64803035688973,22.748108939290535,19.416209159256297
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2005,2722541.076819982,3050815.900977274,2315374.2633081856
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2005,41.80547322025781,46.846236236484636,35.553298932284484
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2004,2685932.499629005,3002644.8437323403,2272916.7088195924
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2004,41.786900162211374,46.71421203807353,35.361329296840225
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1987,975058.5938639804,1089517.8088702802,919200.2051860995
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1987,19.215704816845932,21.471378991679963,18.11489065538587
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1990,5540132.888687785,5942393.049184044,5112165.479200819
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1990,103.82369284234552,111.36216460560469,95.80345979706325
+Deaths,Global,Both,All ages,Stroke,Number,1990,5562788.669803806,6077618.256507371,4964972.593279428
+Deaths,Global,Both,All ages,Stroke,Rate,1990,104.24826873374647,113.89632410534279,93.04502253869262
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2007,2739896.1031718617,3030368.6293943143,2376539.328572653
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2007,40.97097060421756,45.31454455193612,35.53752379807285
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2003,2646755.5521880942,2942003.5303310845,2226495.525128271
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2003,41.710814955127525,46.36369412714506,35.08784283847794
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2008,2774855.903441504,3062363.2682007314,2407675.3291982953
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2008,40.94158372132228,45.18360826399768,35.524021604825705
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2006,2704373.7040903396,3040727.1992372954,2323230.0838973
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2006,40.98461334998602,46.08202940852268,35.20840576417826
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1995,6006556.061871005,6417640.594478107,5578580.855570585
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1995,104.78511277194295,111.95653324389627,97.31903241010984
+Deaths,Global,Both,All ages,Stroke,Number,1995,5890864.969029314,6372334.732346529,5344763.399064902
+Deaths,Global,Both,All ages,Stroke,Rate,1995,102.76686736055336,111.16616688024514,93.24005798689184
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1996,1224497.4817963857,1324975.603820763,1154542.9331520465
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1996,21.086521952416632,22.8168106278138,19.881866044512087
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1990,1095127.6112595072,1212831.4066704204,1028900.2234111876
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1990,20.523008205586418,22.728811377938754,19.28188780073935
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2009,2772439.91882527,3066965.8480076734,2381550.4491837854
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2009,40.35044201785709,44.63700972579348,34.661387126870444
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2010,2787449.1225449056,3082045.0926132128,2405229.441155147
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2010,40.03107964195605,44.2618276203216,34.54195111125583
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2012,2815733.9483996215,3154166.411754259,2474688.122142653
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2012,39.437853980412186,44.178021310353856,34.66108325454306
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2011,2803364.854356634,3085577.724216364,2457017.697218137
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2011,39.75766738145766,43.760045235775436,34.84572912603355
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1993,5923123.705741719,6316327.780099805,5492804.1417717645
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1993,106.14736327294635,113.19391130989378,98.4356744159509
+Deaths,Global,Both,All ages,Stroke,Number,1993,5796856.341467127,6298492.486035083,5238098.688630454
+Deaths,Global,Both,All ages,Stroke,Rate,1993,103.88454580516661,112.87428782535761,93.8711382682451
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1994,5983725.514600952,6387215.059981558,5553044.131692356
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1994,105.76844667918998,112.90053560306589,98.15571431492387
+Deaths,Global,Both,All ages,Stroke,Number,1994,5862129.504166262,6354037.547402931,5288956.736406744
+Deaths,Global,Both,All ages,Stroke,Rate,1994,103.61911327232139,112.31408925596025,93.48770046322646
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2013,2837677.8733427613,3166291.173162234,2487439.4757819683
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2013,39.246385624167665,43.79125817897698,34.40242805583758
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1993,1169606.3481035791,1278441.0030759613,1103532.8744918508
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1993,20.96033040777902,22.910739048888527,19.776238135762
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2014,2862699.45685231,3217680.301906511,2514506.8766590925
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2014,39.10019308649786,43.94870051552749,34.344403202843644
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1995,1212536.810310229,1325242.5069972998,1143723.8151135708
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1995,21.152854497609145,23.11901930415492,19.952403292695042
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1998,6142043.107491349,6553044.9203528045,5659150.673382768
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1998,103.10352268494229,110.0028123828978,94.9974397149652
+Deaths,Global,Both,All ages,Stroke,Number,1998,5978937.512614853,6486864.248325476,5476924.279087401
+Deaths,Global,Both,All ages,Stroke,Rate,1998,100.36554753447837,108.8918692813504,91.93849290374662
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2015,2910189.380842784,3321366.5011266842,2556647.9296956104
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2015,39.25544075087152,44.80179425957146,34.48653272727554
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1999,1291734.8897490583,1392276.9805937102,1216214.5851402795
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1999,21.41357909903002,23.080303464973312,20.161650371892303
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1997,6074902.900965223,6486862.32777903,5589561.91394753
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1997,103.27800397728004,110.28162988119271,95.02683532410104
+Deaths,Global,Both,All ages,Stroke,Number,1997,5933041.504762259,6391189.482786971,5431868.74608907
+Deaths,Global,Both,All ages,Stroke,Rate,1997,100.86625154598697,108.65511821068722,92.34593064417795
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1994,1181191.8483294162,1291713.8188755163,1111635.4710797167
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1994,20.87876971012019,22.832358176044963,19.649289855073217
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2016,2957868.8468658687,3406794.384158838,2591444.026970956
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2016,39.4157311237627,45.39798699399154,34.53285668754331
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1996,6041071.441470319,6443382.185675172,5585989.7548472565
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1996,104.03058190026002,110.9585947916572,96.19382427700862
+Deaths,Global,Both,All ages,Stroke,Number,1996,5903869.181597113,6361470.137186809,5378500.7401263565
+Deaths,Global,Both,All ages,Stroke,Rate,1996,101.66788331757847,109.54802414182348,92.62074901238748
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1998,1263681.1397238746,1364992.4085899733,1185779.875812041
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1998,21.212807330697782,22.913470859912653,19.905116292006927
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2017,3016683.3255289374,3516307.1176119503,2636824.250891328
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2017,39.719253831543405,46.29756586386252,34.717827636733595
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2018,3052036.391133203,3595283.5686452403,2655042.043508844
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2018,39.723662541944464,46.794275336420185,34.55659784314049
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2000,6286558.960582562,6713426.969489392,5802596.492468938
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2000,102.9178916398446,109.90619092418274,94.99489319771202
+Deaths,Global,Both,All ages,Stroke,Number,2000,6059240.797108399,6549558.703250753,5579834.363291833
+Deaths,Global,Both,All ages,Stroke,Rate,2000,99.1964430281488,107.22348698810217,91.34803188361946
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2002,1366363.1917283768,1450847.1158785196,1280572.6662372632
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2002,21.81024061370609,23.158794735230614,20.44083018559684
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2019,3080621.0909298537,3661233.0089333225,2671058.415407977
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2019,39.652147678006415,47.12548141063204,34.3804705668525
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2001,1342363.3708053424,1429401.2580696403,1259291.319297423
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2001,21.700556200812432,23.107604847443582,20.35761898897324
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,1999,6257838.7120959265,6686024.966985604,5775721.319797918
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,1999,103.73856533090206,110.83677124835533,95.74632249770197
+Deaths,Global,Both,All ages,Stroke,Number,1999,6041829.123906641,6545400.407694336,5564602.3281481005
+Deaths,Global,Both,All ages,Stroke,Rate,1999,100.15769247568433,108.5055846035208,92.24652291585505
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2020,2851663.4932141933,3427940.2266733265,2444187.855730254
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2020,36.327769612092055,43.66904548693805,31.136876255887426
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,1997,1240041.9398045565,1340795.8531028256,1164834.5079329452
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1997,21.08166311115536,22.794556836039693,19.803079144533708
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2000,1321972.4175800108,1408776.5318070531,1243410.7034227734
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2000,21.6421439576787,23.063222878265737,20.356002201056135
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2001,6335070.122149643,6736872.139575334,5862180.904990554
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2001,102.41231861036185,108.9078230694227,94.7676232492523
+Deaths,Global,Both,All ages,Stroke,Number,2001,6089215.601702489,6606463.467032301,5602766.993475721
+Deaths,Global,Both,All ages,Stroke,Rate,2001,98.43785092581348,106.79964521747816,90.5739553583273
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2004,6499737.101889646,6944546.613653205,6050649.912600477
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2004,101.12088274548942,108.04109040589535,94.13412431222774
+Deaths,Global,Both,All ages,Stroke,Number,2004,6015056.052723611,6499351.4783402225,5530908.341207403
+Deaths,Global,Both,All ages,Stroke,Rate,2004,93.58036614099007,101.11488333457268,86.04814703731367
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2005,1424174.540075894,1513416.8500266566,1324766.5999276664
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2005,21.86864731005582,23.23899100496832,20.34220717105089
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2021,2890392.215092616,3497544.7097161845,2446507.0521231946
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2021,36.48212300543442,44.145516186558,30.87946706442442
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2003,6549489.620490586,6977239.710160232,6107679.540921015
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2003,103.21487731837092,109.95588701324046,96.25229308613918
+Deaths,Global,Both,All ages,Stroke,Number,2003,6124637.937239846,6620165.354814119,5673163.721643142
+Deaths,Global,Both,All ages,Stroke,Rate,2003,96.51954426096174,104.32867208258685,89.40466073943769
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2022,3248007.204921083,3943666.0793935065,2797372.027060568
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2022,40.62638843774925,49.32775696047418,34.98980002386352
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Number,2023,3426147.9539974383,4079798.7097679465,2955249.039254128
+Deaths,Global,Both,All ages,Chronic obstructive pulmonary disease,Rate,2023,42.47732866728443,50.581280498695506,36.63913129834675
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2007,6796674.53847828,7218915.309857943,6343598.179753792
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2007,101.63390954863539,107.94787678705413,94.85884309510183
+Deaths,Global,Both,All ages,Stroke,Number,2007,5984860.309453516,6431832.643681387,5507704.852904824
+Deaths,Global,Both,All ages,Stroke,Rate,2007,89.4944649635088,96.17825503326672,82.35933229870925
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2002,6452178.729197832,6868561.186518307,6007882.351991191
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2002,102.99133599203094,109.63773984458082,95.89936297245836
+Deaths,Global,Both,All ages,Stroke,Number,2002,6124401.786128041,6619199.273247333,5659472.438314312
+Deaths,Global,Both,All ages,Stroke,Rate,2002,97.75927614201834,105.65736086389818,90.33795434004264
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2004,1400468.57033454,1491054.9192404896,1298447.4336758195
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2004,21.788053250395382,23.197367415332533,20.200840223790248
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2006,6680734.51695175,7116478.248977436,6251375.61837095
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2006,101.24611131111135,107.84978015678213,94.73920421462005
+Deaths,Global,Both,All ages,Stroke,Number,2006,5958099.001140845,6410732.963268685,5496860.549811891
+Deaths,Global,Both,All ages,Stroke,Rate,2006,90.29461553089341,97.15425475117706,83.30457581808605
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2008,1524168.0472572276,1612536.8465240651,1412966.5657307603
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2008,22.488322234950076,23.792158801399804,20.8476010860773
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2005,6601963.459771651,7036270.55880294,6164109.40957408
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2005,101.37522220270016,108.0441440979495,94.65183575840953
+Deaths,Global,Both,All ages,Stroke,Number,2005,5974674.797168303,6425085.515554279,5514404.382112075
+Deaths,Global,Both,All ages,Stroke,Rate,2005,91.74300779495057,98.65920582256516,84.67541102862917
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2003,1386650.251919552,1475774.8179250972,1294724.830286975
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2003,21.852532629045395,23.257066673581573,20.403859271878474
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2010,7078578.463333515,7521764.2612039335,6616340.994849525
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2010,101.656792917114,108.02146728094138,95.0185139384165
+Deaths,Global,Both,All ages,Stroke,Number,2010,6030960.46597693,6456392.124783681,5571218.759172749
+Deaths,Global,Both,All ages,Stroke,Rate,2010,86.61175437368782,92.72145821658835,80.00931749656031
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2006,1454161.2463024245,1543275.6286574001,1348084.5208892648
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2006,22.037722204626114,23.38824506291948,20.43013610440801
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2007,1493884.9562700647,1586165.7350818217,1376376.5900170377
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2007,22.338772831045723,23.718691241694177,20.58161429721339
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2012,1603900.314000218,1701194.1252613412,1479171.5381080697
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2012,22.464617588827902,23.82733835436571,20.717636041233188
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2009,6933518.739425815,7378708.91676526,6466262.973683896
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2009,100.9113106384181,107.39066491249234,94.11081099366196
+Deaths,Global,Both,All ages,Stroke,Number,2009,6011239.430577614,6450454.527686802,5553876.037827083
+Deaths,Global,Both,All ages,Stroke,Rate,2009,87.48834066772272,93.88073286671433,80.83181587345757
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2008,6899489.074369449,7313793.46396155,6425441.715406082
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2008,101.79844265869994,107.91129263824627,94.80411563407881
+Deaths,Global,Both,All ages,Stroke,Number,2008,6016732.361283247,6462742.244942731,5567795.6805673465
+Deaths,Global,Both,All ages,Stroke,Rate,2008,88.77381754949933,95.35446592469404,82.14998577635866
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2011,1581223.8578204846,1672669.2557787802,1459219.7587671955
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2011,22.425112484789196,23.722002438282335,20.69483524963125
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2012,7474539.7045407845,7937146.665973254,6882134.003594264
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2012,104.69021961610305,111.16960514386753,96.39284139811771
+Deaths,Global,Both,All ages,Stroke,Number,2012,6059535.1459611235,6471411.791743664,5584896.864141058
+Deaths,Global,Both,All ages,Stroke,Rate,2012,84.8713218844476,90.64016628238727,78.22342275939967
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2013,7643335.817534557,8126996.146872199,7023609.318756887
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2013,105.71083764226123,112.40008168035799,97.13973611554266
+Deaths,Global,Both,All ages,Stroke,Number,2013,6106914.203326995,6509839.865196926,5611991.483380603
+Deaths,Global,Both,All ages,Stroke,Rate,2013,84.46142250640432,90.03406908908079,77.61641444412666
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2010,1553585.0597505218,1645187.4382982883,1435412.0211045197
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2010,22.31132642185983,23.626845360440633,20.614221250214193
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2015,1707829.725541122,1828841.9622056687,1570465.0463908305
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2015,23.03685424903228,24.669183992858045,21.18394699181277
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2009,1543713.8563108414,1638921.5398590076,1426533.6517302878
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2009,22.467407148583547,23.853071843634012,20.76195159715298
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2014,1667232.5075549681,1770152.4965237742,1538851.2977045577
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2014,22.771902516502436,24.177635637214095,21.01840719871288
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2011,7245478.78239718,7680841.033042751,6718320.890202529
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2011,102.75627697988885,108.93063831024152,95.28005849808324
+Deaths,Global,Both,All ages,Stroke,Number,2011,6029910.40926783,6445529.929911422,5574957.846132266
+Deaths,Global,Both,All ages,Stroke,Rate,2011,85.5169358419735,91.41130333156701,79.06474227488376
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2015,7955457.177204909,8518431.56453613,7333670.569416037
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2015,107.3108780898042,114.90481951905205,98.92362071665258
+Deaths,Global,Both,All ages,Stroke,Number,2015,6346278.10538306,6829375.683884424,5814665.980470969
+Deaths,Global,Both,All ages,Stroke,Rate,2015,85.60471898989321,92.12120499406451,78.43382199971595
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2013,1635409.5788571206,1734982.2510143118,1511049.0340064564
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2013,22.618464057612034,23.99559975219546,20.89850072227708
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2016,8154346.001036045,8761061.82210086,7514321.287032719
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2016,108.66252903928743,116.74745400036642,100.13373910783108
+Deaths,Global,Both,All ages,Stroke,Number,2016,6531013.181638823,7043656.275182914,6042141.827966687
+Deaths,Global,Both,All ages,Stroke,Rate,2016,87.03045092955719,93.86178909351871,80.51588830759765
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2018,1817404.674018317,1952563.5089451529,1657891.3374366136
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2018,23.65436080074098,25.41351543067726,21.578221088999694
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2019,8100022.328443309,8632025.093529366,7428171.275376872
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2019,104.25926203914862,111.10692411236144,95.6115457548413
+Deaths,Global,Both,All ages,Stroke,Number,2019,6443888.5491050845,6977594.77436082,5938760.94234088
+Deaths,Global,Both,All ages,Stroke,Rate,2019,82.94237195285986,89.81196007676783,76.44063289815314
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2017,1812066.0746133348,1948078.191612307,1664219.7323325363
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2017,23.85862373024381,25.64943145392178,21.912000315243283
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2014,7732269.960435491,8241874.102820968,7125629.6624843115
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2014,105.61124316640162,112.57167358016936,97.32544399626347
+Deaths,Global,Both,All ages,Stroke,Number,2014,6164364.870304174,6603281.455995063,5641253.026908135
+Deaths,Global,Both,All ages,Stroke,Rate,2014,84.19600461640518,90.19094872704206,77.05107920914325
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2021,1921938.0899329488,2061106.7499710089,1747282.348404343
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2021,24.258431585734396,26.01499879052371,22.053951441904587
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2018,8281701.691226193,8844964.695586046,7619380.3311832715
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2018,107.79017059268153,115.1212986134863,99.16975234435974
+Deaths,Global,Both,All ages,Stroke,Number,2018,6614537.053816046,7125048.553655356,6126038.0882480955
+Deaths,Global,Both,All ages,Stroke,Rate,2018,86.09125322369353,92.73579606149003,79.73321368108326
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2017,8289335.448708422,8872733.598150937,7644364.162687591
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2017,109.14179025547244,116.82311994177527,100.64975597175246
+Deaths,Global,Both,All ages,Stroke,Number,2017,6650013.256356069,7166855.611043488,6187207.0913579045
+Deaths,Global,Both,All ages,Stroke,Rate,2017,87.55760416649716,94.3626249331774,81.46405255410114
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2016,1762831.8722951093,1889987.9029344793,1625145.0454483314
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2016,23.491003385226833,25.185449006017976,21.65622732609662
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2020,1808857.8906396837,1945758.7225354267,1650345.947470815
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2020,23.043312392412606,24.78731265494245,21.024004936990075
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2022,8759515.500562845,9384486.901832156,7954228.627261093
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2022,109.56486756346284,117.38207033074194,99.49226142237752
+Deaths,Global,Both,All ages,Stroke,Number,2022,6797818.094868492,7403675.593367172,6114824.655554164
+Deaths,Global,Both,All ages,Stroke,Rate,2022,85.02776657418094,92.60589079590005,76.48481854008254
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2019,1800847.8263966693,1929430.6617891004,1634780.2626476088
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2019,23.179573810015018,24.834624992014987,21.042038758498222
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2020,8107363.390991078,8645538.574507257,7418491.780636994
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2020,103.28092011216532,110.13681461873803,94.50528118674379
+Deaths,Global,Both,All ages,Stroke,Number,2020,6394624.597061294,6917190.625916237,5833124.805164766
+Deaths,Global,Both,All ages,Stroke,Rate,2020,81.46208333158725,88.1191304721498,74.3090531350743
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2023,2037142.723315915,2212922.9370974014,1857725.6729000192
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2023,25.25646357434617,27.435783911429137,23.0320537936364
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2021,8672463.738084372,9219878.615279661,7961860.84430191
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2021,109.46261452023224,116.37200791693566,100.49348498700792
+Deaths,Global,Both,All ages,Stroke,Number,2021,6717956.163807612,7298099.175461967,6092408.466972344
+Deaths,Global,Both,All ages,Stroke,Rate,2021,84.79309549527427,92.11557879058698,76.89752066548287
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Number,2022,2022092.7539322802,2201489.1583803883,1823041.732859397
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2022,25.29253184966596,27.536439437186655,22.802782415371176
+Deaths,Global,Both,All ages,Ischemic heart disease,Number,2023,8905941.723264206,9659633.887228651,8043939.55718969
+Deaths,Global,Both,All ages,Ischemic heart disease,Rate,2023,110.41572598445285,119.75998962762738,99.72863663166034
+Deaths,Global,Both,All ages,Stroke,Number,2023,6793204.263645121,7467572.3487474015,6064922.0460736975
+Deaths,Global,Both,All ages,Stroke,Rate,2023,84.22204005351833,92.58284500947325,75.19280852770913
