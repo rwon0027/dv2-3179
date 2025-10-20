@@ -9,3 +9,7 @@ vegaEmbed("#bar_chart", vg_bar, { actions: false }).then(function(result) {
 var vg_line = "line_chart.vg.json";
 vegaEmbed("#line_chart", vg_line, { actions: false }).then(function(result) {
 }).catch(console.error);
+
+var vg_taxes = "taxes_bar_chart.vg.json";
+vegaEmbed("#taxes_bar_chart", vg_taxes, { actions: false }).then(function(result) {
+}).catch(console.error);
