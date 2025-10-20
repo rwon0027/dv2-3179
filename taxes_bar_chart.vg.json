@@ -1,0 +1,93 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Taxes vs Smoking-Related Deaths — Top/Bottom 10 (+ Australia)",
+    "anchor": "middle"
+  },
+  "params": [
+    {
+      "name": "Year_selection",
+      "bind": {
+        "input": "select",
+        "options": [2008,2010,2012,2014,2016,2018,2020],
+        "name": "Select Year: "
+      },
+      "value": 2020
+    },
+    {
+      "name": "Which10",
+      "bind": {
+        "input": "select",
+        "options": ["Top 10", "Bottom 10"],
+        "name": "Show: "
+      },
+      "value": "Top 10"
+    }
+  ],
+
+  "hconcat": [
+    {
+      "width": 380,
+      "height": 600,
+      "title": "Taxes as a Share of Cigarette Price",
+      "data": {
+        "url": "taxes-as-a-share-of-cigarette-price.csv",
+        "format": { "type": "csv", "parse": { "Year": "number", "Taxes as a share of cigarette price": "number" } }
+      },
+      "transform": [
+        { "filter": "datum.Year == toNumber(Year_selection)" },
+        { "filter": "datum['Taxes as a share of cigarette price'] > 0" },
+        { "calculate": "datum.Entity === 'Australia'", "as": "isAustralia" },
+        { "window": [{ "op": "rank", "as": "rank_desc" }], "sort": [{ "field": "Taxes as a share of cigarette price", "order": "descending" }] },
+        { "window": [{ "op": "rank", "as": "rank_asc"  }], "sort": [{ "field": "Taxes as a share of cigarette price", "order": "ascending"  }] },
+        { "calculate": "Which10 === 'Top 10' ? datum.rank_desc : datum.rank_asc", "as": "rank_selected" },
+        { "filter": "datum.rank_selected <= 10 || datum.isAustralia" }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": { "field": "Entity", "type": "nominal", "sort": { "field": "rank_selected", "order": "ascending" }, "axis": { "title": "Country" } },
+        "x": { "field": "Taxes as a share of cigarette price", "type": "quantitative", "title": "Tax Share (%)" },
+        "tooltip": [
+          { "field": "Entity", "type": "nominal" },
+          { "field": "Year", "type": "quantitative" },
+          { "field": "Taxes as a share of cigarette price", "type": "quantitative", "title": "Tax Share (%)" }
+        ]
+      }
+    },
+
+    {
+      "width": 380,
+      "height": 600,
+      "title": "Smoking-Related Deaths (Rate per 100,000)",
+      "data": { "url": "top-causes-countries.csv" },
+      "transform": [
+        { "filter": "toNumber(datum.year) >= 2008 && toNumber(datum.year) <= 2020 && (toNumber(datum.year) % 2) == 0" },
+        { "filter": "toNumber(datum.year) == toNumber(Year_selection)" },
+
+        { "filter": "datum.location != 'Global'" },
+        { "filter": "datum.sex == 'Both' && datum.age == 'All ages' && datum.measure == 'Deaths' && datum.metric == 'Rate'" },
+
+        { "aggregate": [{ "op": "sum", "field": "val", "as": "rate_total" }], "groupby": ["location"] },
+
+        { "filter": "datum.rate_total > 0" },
+        { "calculate": "datum.location === 'Australia'", "as": "isAustralia" },
+
+        { "window": [{ "op": "rank", "as": "rank_desc" }], "sort": [{ "field": "rate_total", "order": "descending" }] },
+        { "window": [{ "op": "rank", "as": "rank_asc"  }], "sort": [{ "field": "rate_total", "order": "ascending"  }] },
+
+        { "calculate": "Which10 === 'Top 10' ? datum.rank_desc : datum.rank_asc", "as": "rank_selected" },
+        { "filter": "datum.rank_selected <= 10 || datum.isAustralia" }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": { "field": "location", "type": "nominal", "sort": { "field": "rank_selected", "order": "ascending" }, "axis": { "title": "Country" } },
+        "x": { "field": "rate_total", "type": "quantitative", "title": "Death Rate (per 100,000)" },
+        "tooltip": [
+          { "field": "location", "type": "nominal", "title": "Country" },
+          { "field": "rate_total", "type": "quantitative", "title": "Death Rate", "format": ".1f" },
+          { "field": "rank_selected", "type": "quantitative", "title": "Rank" }
+        ]
+      }
+    }
+  ]
+}
