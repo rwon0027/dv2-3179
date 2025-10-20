@@ -1,17 +1,53 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "description": "Percentage of lung cancer deaths per region over time.",
-  "data": { "url": "regions-deaths.csv" },
-  "mark": "line",
-  "width": 500,
+  "description": "Death rate per region over time, filterable by cause.",
+  "data": { "url": "top-causes-regions.csv" },
+  "width": "container",
   "height": 400,
-  "encoding": {
-    "x": { "field": "year", "type": "temporal", "title": "Year" },
-    "y": { "field": "val", "type": "quantitative", "title": "Percent", "axis": {"format": ".2%"} },
-    "color": { "field": "location", "type": "nominal", "title": "Region" }
-  },
+  "autosize": {"type": "fit", "contains": "padding"},
+  "mark": "line",
+
+  "params": [
+    {
+      "name": "CauseSelection",
+      "value": "Tracheal, bronchus, and lung cancer",
+      "bind": {
+        "input": "select",
+        "name": "Cause: ",
+        "options": [
+          "Tracheal, bronchus, and lung cancer",
+          "Chronic obstructive pulmonary disease",
+          "Ischemic heart disease",
+          "Stroke"
+        ]
+      }
+    }
+  ],
+
   "transform": [
     { "filter": "datum.measure == 'Deaths'" },
-    { "filter": "datum.metric == 'Percent'" }
-  ]
+    { "filter": "datum.metric == 'Rate'" },             
+    { "filter": "datum.sex == 'Both'" },
+    { "filter": "datum.age == 'All ages'" },
+    { "filter": "datum.cause == CauseSelection" }        
+  ],
+
+  "encoding": {
+    "x": { "field": "year", "type": "quantitative", "title": "Year", "axis": { "format": "d" } },
+    "y": { "field": "val", "type": "quantitative", "title": "Deaths per 100,000" },
+    "color": { 
+      "field": "location", 
+      "type": "nominal", 
+      "title": "Region",
+      "legend": {
+        "orient": "left"
+      }
+    },
+    "tooltip": [
+      { "field": "location", "type": "nominal", "title": "Region" },
+      { "field": "year", "type": "quantitative", "title": "Year" },
+      { "field": "val", "type": "quantitative", "title": "Rate per 100k", "format": ".2f" },
+      { "field": "cause", "type": "nominal", "title": "Cause" }
+    ]
+  }
 }
