@@ -1,100 +1,53 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Global tracheal, bronchus, and lung cancer Deaths per Year",
-  "data": { "url": "smoking-related-deaths.csv" },
+  "title": { "text": "Global Deaths per Year (starting 1980)" },
+  "width": "container",
+  "height": 400,
+  "autosize": {"type": "fit", "contains": "padding"},
 
-  "vconcat": [
-    {
-      "width": 900,
-      "height": 500,
-      "transform": [
-        { "filter": "datum.sex == 'Both'" },
-        { "filter": "datum.age == 'All ages'" },
-        { "filter": "datum.metric == 'Number'" },
-        { "filter": "datum.location == 'Global'" }
-      ],
-      "layer": [
-        {
-          "mark": { "type": "bar", "width": 12 }
-        },
-        {
-          "transform": [{ "filter": "datum.year == 2021" }],
-          "mark": {
-            "type": "text",
-            "align": "center",
-            "baseline": "bottom",
-            "dy": -2,
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "color": "black"
-          },
-          "encoding": {
-            "text": {
-              "aggregate": "sum",
-              "field": "val",
-              "type": "quantitative",
-              "format": ",.0f"
-            }
-          }
-        }
-      ],
-      "encoding": {
-        "x": {
-          "field": "year",
-          "type": "quantitative",
-          "axis": { "format": "d", "title": "Year" },
-          "scale": { "domain": { "param": "yearBrush" } }
-        },
-        "y": {
-          "aggregate": "sum",
-          "field": "val",
-          "type": "quantitative",
-          "title": "Number of Deaths",
-          "axis": { "format": "~s" }
-        },
-        "tooltip": [
-          { "field": "year", "type": "quantitative", "title": "Year" },
-          {
-            "aggregate": "sum",
-            "field": "val",
-            "type": "quantitative",
-            "title": "Global Deaths",
-            "format": ",.0f"
-          }
-        ]
-      }
-    },
 
+  "data": { "url": "top-causes-global.csv" },
+
+  "params": [
     {
-      "width": 900,
-      "height": 80,
-      "transform": [
-        { "filter": "datum.sex == 'Both'" },
-        { "filter": "datum.age == 'All ages'" },
-        { "filter": "datum.metric == 'Number'" },
-        { "filter": "datum.location == 'Global'" }
-      ],
-      "mark": { "type": "bar", "width": 12 },
-      "params": [
-        {
-          "name": "yearBrush",
-          "select": { "type": "interval", "encodings": ["x"] }
-        }
-      ],
-      "encoding": {
-        "x": {
-          "field": "year",
-          "type": "quantitative",
-          "axis": { "format": "d", "title": "" },
-          "scale": { "domain": [1979, 2022] }
-        },
-        "y": {
-          "aggregate": "sum",
-          "field": "val",
-          "type": "quantitative",
-          "axis": { "tickCount": 3, "grid": false, "title": "" }
-        }
+      "name": "YearsShown",
+      "value": 10,
+      "bind": {
+        "input": "range",
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "name": "Show number of years (from 1980): "
       }
     }
-  ]
+  ],
+
+  "transform": [
+    { "filter": "datum.measure == 'Deaths'" },
+    { "filter": "datum.location == 'Global'" },
+    { "filter": "datum.metric == 'Number'" },
+
+    { "filter": "datum.year >= 1980 && datum.year <= 1980 + YearsShown - 1" },
+
+    {
+      "aggregate": [{ "op": "sum", "field": "val", "as": "deaths" }],
+      "groupby": ["year"]
+    }
+  ],
+
+  "mark": "bar",
+
+  "encoding": {
+    "x": { "field": "year", "type": "ordinal", "sort": "ascending", "title": "Year" },
+    "y": {
+      "field": "deaths",
+      "type": "quantitative",
+      "title": "Deaths (number)",
+      "axis": { "format": ".2s" }
+    },
+    "tooltip": [
+      { "field": "year", "type": "ordinal", "title": "Year" },
+      { "field": "deaths", "type": "quantitative", "title": "Deaths", "format": ",.0f" }
+    ]
+  }
 }
