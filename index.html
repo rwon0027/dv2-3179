@@ -38,8 +38,9 @@
       <div class="pure-u-1">
         <div id="choropleth_map" class="vis-container center"></div>
         <p class="center">Tobacco taxes around the world vary depending on each country's policies. In many European countries and in Australia,
-          taxes make up a significant amount of the price of cigarettes at around 70% or more. However, countries in Asia and Africa tend to have 
-          a much lower percentage of tax on the price of cigarettes. 
+          taxes make up a significant amount of the price of cigarettes at around 70% or more in 2022. However, countries in Asia and Africa tend to have 
+          a much lower percentage of tax on the price of cigarettes. The tax rates have been slowly increasing in the past few decades in many countries. 
+          
         </p>
       </div>
     </div>
@@ -50,8 +51,11 @@
       </div>
       <div class="pure-u-1-3">
         <div class="description description-right">
-          <h2>Global Lung Cancer Deaths per Year</h2>
-          <p>text</p>
+          <h2>Has increasing tax rates reduced smoking-related deaths?</h2>
+          <p>From the chart on the left, we can see that the global smoking-related deaths has has been steadily increasing since the 80's.
+             <br><br>Despite the increase in tobacco taxes, smoking-related deaths have continued to rise. <br><br>While taxes rising may have discouraged some
+              smokers, the overall number of deaths has still increased due to population growth and other factors.
+          </p>
         </div>
       </div>
     </div>
@@ -59,8 +63,13 @@
     <div class="pure-g">
       <div class="pure-u-1-3">
         <div class="description description-left">
-          <h2>Regional Trends Over Time</h2>
-          <p>text</p>
+          <h2>How does Smoking-related deaths differ across Regions?</h2>
+          <p>This chart compares smoking-related death rates (per 100k) across the world over the past few decades.
+            Europe & Central Asia are consistently the highest in death rates, although they have been declining in recent years, followed by East Asia & Pacific. <br><br>
+            However, regions such as South Asia however has shown a steady increase in death rates over time. This suggests that the increasing tax rate's impact may not be effective in all regions.<br><br>
+            But does tobacco tax increasing actually translate into fewer smoking-related deaths?
+
+          </p>
         </div>
       </div>
       <div class="pure-u-2-3">
@@ -71,7 +80,15 @@
     <div class="pure-g">
       <div class="pure-u-1">
         <div class="center">
-          <h2>Taxes vs Smoking-Related Deaths</h2>
+          <h2>Do Higher Taxes actually Lower Smoking-related Deaths?</h2>
+          <p>The below charts compare the top 10 countries of tobacco taxes (left) and smoking related deaths rates (right). Filters are below the charts to 
+            see the top 10 or bottom 10 for each year.<br>
+            We can see that countries that have a high tobacco tax rate don't usually appear in the highest death rates chart. Australia stands out as 
+            a country with a fairly high tax rate but low death rate.
+            This suggests that higher tax may be effective in reducing the number of smokers which results in lower smoking-related deaths. <br><br>
+            However, there are several exceptions to this trend where countries such as Bulgaria have a very high death rate
+            while having one of the highest tobacco tax rates worldwide. This asks the question of whether tax rates are enough to reduce deaths caused by smoking.
+          </p>
           <div id="taxes_bar_chart" class="vis-container"></div>
         </div>
       </div>
@@ -79,26 +96,27 @@
 
     <div class="pure-g">
       <div class="pure-u-1 small-font center">
-        <p>data sources</p>
+        <p>Remy Wong 33119953, FIT 3179 Data Visualisation 2</p><br>
+        <p>Data sources: https://ourworldindata.org/grapher/taxes-as-a-share-of-cigarette-price<br>hhttps://vizhub.healthdata.org/gbd-results/</p>
       </div>
     </div>
 
   </div>
 
   <script type="text/javascript">
-    vegaEmbed('#choropleth_map', 'taxes_map.vg.json')
+    vegaEmbed('#choropleth_map', 'taxes_map.vg.json', { "actions": false })
       .then(function(result) {
       }).catch(console.error);
 
-    vegaEmbed('#bar_chart', 'bar_chart.vg.json')
+    vegaEmbed('#bar_chart', 'bar_chart.vg.json', { "actions": false })
       .then(function(result) {
       }).catch(console.error);
 
-    vegaEmbed('#line_chart', 'line_chart.vg.json')
+    vegaEmbed('#line_chart', 'line_chart.vg.json', { "actions": false })
       .then(function(result) {
       }).catch(console.error);
     
-    vegaEmbed('#taxes_bar_chart', 'taxes_bar_chart.vg.json')
+    vegaEmbed('#taxes_bar_chart', 'taxes_bar_chart.vg.json', { "actions": false })
       .then(function(result) {
       }).catch(console.error);
   </script>
