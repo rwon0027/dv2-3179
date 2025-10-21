@@ -1,20 +1,21 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Smoking-Related Death Rates by Region Over Time" },
   "description": "Death rate per region over time, filterable by cause.",
   "data": { "url": "top-causes-regions.csv" },
   "width": "container",
   "height": 400,
   "autosize": {"type": "fit", "contains": "padding"},
-  "mark": "line",
 
   "params": [
     {
       "name": "CauseSelection",
-      "value": "Tracheal, bronchus, and lung cancer",
+      "value": "All causes",
       "bind": {
         "input": "select",
         "name": "Cause: ",
         "options": [
+          "All causes",
           "Tracheal, bronchus, and lung cancer",
           "Chronic obstructive pulmonary disease",
           "Ischemic heart disease",
@@ -24,30 +25,74 @@
     }
   ],
 
-  "transform": [
-    { "filter": "datum.measure == 'Deaths'" },
-    { "filter": "datum.metric == 'Rate'" },             
-    { "filter": "datum.sex == 'Both'" },
-    { "filter": "datum.age == 'All ages'" },
-    { "filter": "datum.cause == CauseSelection" }        
-  ],
-
-  "encoding": {
-    "x": { "field": "year", "type": "quantitative", "title": "Year", "axis": { "format": "d" } },
-    "y": { "field": "val", "type": "quantitative", "title": "Deaths per 100,000" },
-    "color": { 
-      "field": "location", 
-      "type": "nominal", 
-      "title": "Region",
-      "legend": {
-        "orient": "left"
+  "layer": [
+    {
+      "transform": [
+        { "filter": "datum.measure == 'Deaths'" },
+        { "filter": "datum.metric == 'Rate'" },             
+        { "filter": "datum.sex == 'Both'" },
+        { "filter": "datum.age == 'All ages'" },
+        { "filter": "CauseSelection != 'All causes'" },
+        { "filter": "datum.cause == CauseSelection" }
+      ],
+      "mark": "line",
+      "encoding": {
+        "x": { "field": "year", "type": "quantitative", "title": "Year", "axis": { "format": "d" } },
+        "y": { "field": "val", "type": "quantitative", "title": "Deaths per 100,000" },
+        "color": { 
+          "field": "location", 
+          "type": "nominal", 
+          "title": "Region",
+          "legend": {
+            "orient": "left"
+          }
+        },
+        "tooltip": [
+          { "field": "location", "type": "nominal", "title": "Region" },
+          { "field": "year", "type": "quantitative", "title": "Year" },
+          { "field": "val", "type": "quantitative", "title": "Rate per 100k", "format": ".2f" },
+          { "field": "cause", "type": "nominal", "title": "Cause" }
+        ]
       }
     },
-    "tooltip": [
-      { "field": "location", "type": "nominal", "title": "Region" },
-      { "field": "year", "type": "quantitative", "title": "Year" },
-      { "field": "val", "type": "quantitative", "title": "Rate per 100k", "format": ".2f" },
-      { "field": "cause", "type": "nominal", "title": "Cause" }
-    ]
-  }
+    {
+      "transform": [
+        { "filter": "datum.measure == 'Deaths'" },
+        { "filter": "datum.metric == 'Rate'" },             
+        { "filter": "datum.sex == 'Both'" },
+        { "filter": "datum.age == 'All ages'" },
+        { "filter": "CauseSelection == 'All causes'" },
+        { 
+          "aggregate": [
+            {
+              "op": "sum",
+              "field": "val",
+              "as": "val"
+            }
+          ],
+          "groupby": ["location", "year"]
+        },
+        { "calculate": "'All causes'", "as": "cause" }
+      ],
+      "mark": "line",
+      "encoding": {
+        "x": { "field": "year", "type": "quantitative", "title": "Year", "axis": { "format": "d" } },
+        "y": { "field": "val", "type": "quantitative", "title": "Deaths per 100,000" },
+        "color": { 
+          "field": "location", 
+          "type": "nominal", 
+          "title": "Region",
+          "legend": {
+            "orient": "left"
+          }
+        },
+        "tooltip": [
+          { "field": "location", "type": "nominal", "title": "Region" },
+          { "field": "year", "type": "quantitative", "title": "Year" },
+          { "field": "val", "type": "quantitative", "title": "Rate per 100k", "format": ".2f" },
+          { "field": "cause", "type": "nominal", "title": "Cause" }
+        ]
+      }
+    }
+  ]
 }
