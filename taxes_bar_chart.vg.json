@@ -1,9 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Taxes vs Smoking-Related Deaths — Top/Bottom 10 (+ Australia)",
-    "anchor": "middle"
-  },
   "params": [
     {
       "name": "Year_selection",
@@ -27,7 +23,7 @@
 
   "hconcat": [
     {
-      "width": 380,
+      "width": 412,
       "height": 600,
       "title": "Taxes as a Share of Cigarette Price",
       "data": {
@@ -43,7 +39,7 @@
         { "calculate": "Which10 === 'Top 10' ? datum.rank_desc : datum.rank_asc", "as": "rank_selected" },
         { "filter": "datum.rank_selected <= 10 || datum.isAustralia" }
       ],
-      "mark": "bar",
+      "mark": {"type": "bar", "color": "green"},
       "encoding": {
         "y": { "field": "Entity", "type": "nominal", "sort": { "field": "rank_selected", "order": "ascending" }, "axis": { "title": "Country" } },
         "x": { "field": "Taxes as a share of cigarette price", "type": "quantitative", "title": "Tax Share (%)" },
@@ -56,7 +52,7 @@
     },
 
     {
-      "width": 380,
+      "width": 412,
       "height": 600,
       "title": "Smoking-Related Deaths (Rate per 100,000)",
       "data": { "url": "top-causes-countries.csv" },
